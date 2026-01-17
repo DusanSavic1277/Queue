@@ -1,16 +1,21 @@
-# Project Name
+# Custom Queue Implementation in Java
 
-## About
-Short explanation of the project.
+This project demonstrates a custom implementation of the Queue data structure
+using a circular array without relying on java.util.Queue.
 
-## Concepts
-- Queue (FIFO)
-- Data structures
-- Time complexity
+## Features
+- FIFO (First In First Out)
+- enqueue
+- dequeue
+- peek
+- isEmpty / isFull
+- O(1) time complexity
 
-## Technologies
-- Java
+## Why Circular Array?
+It avoids shifting elements and ensures efficient memory usage.
 
-## How to Run
-javac Main.java
-java Main
+## Example
+enqueue(10)
+enqueue(20)
+enqueue(30)
+dequeue() -> 10
